@@ -1,0 +1,260 @@
+/* Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(173, 181, 189, 0.25);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+h2, h3, h4 {
+    font-weight: normal
+}
+
+.navbar, 
+.header,
+.services,
+.our-team,
+.testim,
+.our-projects,
+.footer {min-width: 1200px}
+
+/* End Global */
+
+/* Start Navbar */
+
+.navbar {
+    
+    font-size: 18px;
+    height: 0;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.navbar:hover{
+    color: #dfe62d;
+   
+}
+.navbar .container {
+    background-color: rgba(51, 51, 51, 0.3);
+    display : flex ;
+    position: relative;
+}
+
+.navbar .brand {
+    float: left;
+    
+    width: 30%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navbar .links {
+    float: left;
+    width: 50%;
+    margin-top: 25px
+}
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent
+}
+
+.navbar .links li a {
+    color: #FFF;
+    text-decoration: none
+}
+
+.navbar .links li.active a,
+.navbar .links li a:hover {
+    color: #dfe62d;
+}
+
+.navbar .links li.active,
+.navbar .links li:hover {
+    border-bottom: 2px solid #dfe62d;
+}
+
+/* End Navbar */
+
+/* start about body */
+.contain {
+    margin-top: 150px;
+}
+.contain .block {
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(243, 242, 239);
+}
+
+img {
+    width: 80%;
+    height: 60%;
+    margin-left: 10% ;
+}
+.about .about-img {
+     
+    opacity: 0.6;
+    transition: all 0.5s ease-out;
+    
+}
+.about .about-img:hover {
+     
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    
+}
+
+span {
+    color: #dfe62d;
+}
+.overly:before, .page-title:before, .slider:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 50%;
+    /* background: rgba(32, 27, 48, 0.8); */
+    background-image: url('../img/dynamic1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 10px 18px rgb(58, 55, 55);
+    opacity: 0.8;
+    margin-top: 130PX;
+    margin-left: 100px;
+}
+.section {
+    padding: 100px 0;
+    margin-top: 40px;
+    
+}
+.container {
+    
+    width: 1090px;
+    margin: auto;
+    min-width: 1090px;
+}
+.bg-dark {
+    background-color: black !important;
+}
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    text-align: center;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* end about body */
+
+/* Start My Framework */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both
+}
+
+.special-heading {
+    position: relative
+}
+
+.special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid #333;
+}
+
+.separator {
+    border: 1px solid #EEE
+}
+
+.btn {
+    background-color:#dfe62d !important ;
+    border-radius: 5px;
+    color: #24445a;
+    padding: 15px 20px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    transform: scaleX(1.2);
+    color: white !important;
+    transition: transform 330ms ease-in-out;
+}
+.footer {
+        margin-top: 40px;
+        background: #dfe62d;
+        text-align: center;
+        color: dimgrey;
+        height: 200PX;
+        z-index: 0;
+    
+}
+.footer:hover .copyright {
+    color: #24445a;
+}
+.col {
+    padding-top: 60PX ;
+}
+.footer .footer-manu ul {
+    display: inline-flex;
+    margin-bottom: 10px;
+    
+}
+.footer-manu ul li {
+    margin-right: 10px;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    height: 40px;
+    width: 40px;
+    background: #655E7A;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+  }
+/* End My Framework */
